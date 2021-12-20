@@ -1,4 +1,4 @@
-//the key of the token
+//the key of the key
 //196b95d9-c2bb-4549-8ee0-128a264df39f
 
 //the value of the token
@@ -31,7 +31,7 @@ function updateUI() {
     document.getElementById('ls-currently').textContent = values;
 }
 
-
+saveToken();
 
 //local storage is supported by major browsers but we can still check
 
