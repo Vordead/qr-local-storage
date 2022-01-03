@@ -1,0 +1,40 @@
+body,
+ul,
+li,
+h1,
+h2,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+header {
+    background-color: #00aeff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+
+main {
+    margin: 120px auto;
+    padding: 0 3%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main h1 {
+    text-align: center;
+}
